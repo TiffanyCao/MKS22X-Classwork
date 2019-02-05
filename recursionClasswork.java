@@ -21,8 +21,17 @@ public class recursionClasswork{
   }
 
   public static void main(String args[]){
+    System.out.println("*testing makeAllWords(1, 26)*");
     System.out.println(makeAllWords(1, 26));
+    System.out.println("*testing makeAllWords(2, 26)*");
+    System.out.println(makeAllWords(2, 26));
+    System.out.println("*testing makeAllWords(2, 2)*");
     System.out.println(makeAllWords(2, 2));
+    System.out.println("*testing makeAllWords(2, 3)*");
     System.out.println(makeAllWords(2, 3));
+    System.out.println("*testing makeAllWords(3, 3)*");
+    System.out.println(makeAllWords(3, 3));
+    System.out.println("*testing makeAllWords(4, 2)*");
+    System.out.println(makeAllWords(4, 2));
   }
 }
